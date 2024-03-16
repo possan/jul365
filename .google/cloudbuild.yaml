@@ -16,7 +16,7 @@ steps:
       - "set"
       - "image"
       - "deployment/jul365"
-      - "sumlive-sha256-1=gcr.io/$PROJECT_ID/jul365:$COMMIT_SHA"
+      - "jul365-sha256-1=gcr.io/$PROJECT_ID/jul365:$COMMIT_SHA"
     env:
       - "CLOUDSDK_COMPUTE_ZONE=europe-west1-b"
       - "CLOUDSDK_CONTAINER_CLUSTER=cluster-2"
