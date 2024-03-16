@@ -1,0 +1,169 @@
+body {
+  /* background-color: #7c2629; */
+  background-color: #cccccb;
+  color: #7a7256;
+  /* font-family: "Belgrano", serif; */
+  font-family: "Hovden Stitch", sans-serif;
+  text-transform: uppercase;
+  /* font-weight: 400; */
+  font-style: normal;
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("./longsloth3.jpg");
+  background-position: center top;
+  background-size: none;
+  background-repeat: no-repeat;
+}
+
+.slothpaper {
+  width: 650px;
+  margin: 0 auto;
+  /* border: 1px dashed #f0f; */
+  position: absolute;
+  top: 650px;
+  height: 2000px;
+}
+
+.content {
+}
+
+a {
+  color: #7c2629;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* https://colorpalettes.io/modern-christmas-color-palette/ */
+
+h1,
+h2,
+h3 {
+  font-family: "Hovden Stitch", sans-serif;
+  text-transform: uppercase;
+  /* font-family: "Mountains of Christmas", serif; */
+  font-weight: 400;
+  font-style: normal;
+  color: #cc4629;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: 20px 0 10px 0;
+}
+
+p.greendeco {
+  color: #3e4938;
+  margin: 0;
+  font-size: 2rem;
+}
+
+p.greendeco.credit {
+  margin-top: 50px;
+  font-size: 1.3rem;
+}
+
+h2 {
+  font-size: 2.6rem;
+  height: 100px;
+}
+
+h3 {
+  font-size: 3rem;
+}
+
+a.button,
+button {
+  background-color: #bd9a7a;
+  border: 0;
+  padding: 15px 25px;
+  border-radius: 100px;
+  cursor: pointer;
+  font-family: "Hovden Stitch", sans-serif;
+  /* font-family: "Belgrano", serif; */
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 1.2rem;
+}
+
+a.button:hover,
+button:hover {
+  background-color: #d7c4b7;
+}
+
+div.timeline {
+  border: 4px dashed #3e4938;
+  padding: 5px;
+  border-radius: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 80px auto 60px auto;
+}
+
+div.timeline div.inner {
+  position: relative;
+  height: 48px;
+  /* background-color: #fff; */
+}
+
+div.timeline div.inner div.progress {
+  /* background-color: #cc4629; */
+  background-image: url(crosstile6.png);
+  height: 48px;
+  margin: 0;
+  border-radius: 0;
+}
+
+div.timeline div.inner div.cursor {
+  position: absolute;
+  background-color: #3e4938;
+  width: 4px;
+  height: 100px;
+  top: -30px;
+  left: 33%;
+  pointer-events: none;
+  border-radius: 10px;
+}
+
+div.timeline div.inner div.cursor div.tooltip {
+  position: absolute;
+  left: -60px;
+  top: -40px;
+  width: auto;
+  white-space: nowrap;
+  background-color: #3e4938;
+  color: #fff;
+  padding: 15px 10px 10px 10px;
+  width: 120px;
+  box-sizing: border-box;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 20pt;
+  line-height: 1.3rem;
+  pointer-events: all;
+}
+
+p.status,
+p.status2 {
+  font-family: monospace;
+  white-space: nowrap;
+}
+
+h3#timestamp {
+  color: #3e4938;
+  font-variant-numeric: tabular-nums;
+}
+
+a.selected {
+  font-weight: bold;
+}
+
+div#audioenabled {
+  display: none;
+}
