@@ -11,6 +11,11 @@ const SONGS = [
     shorttitle: "Just-D",
     title: "Just-D - Nu är det jul igen",
   },
+  {
+    id: "merjul10",
+    shorttitle: "Adophson & Falk",
+    title: "Adophson & Falk - Mer jul",
+  },
 ];
 
 let currentSong = "carey10";
