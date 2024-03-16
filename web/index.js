@@ -13,8 +13,8 @@ const SONGS = [
   },
   {
     id: "merjul10",
-    shorttitle: "Adophson & Falk",
-    title: "Adophson & Falk - Mer jul",
+    shorttitle: "Adolphson & Falk",
+    title: "Adolphson & Falk - Mer jul",
   },
 ];
 
