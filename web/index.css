@@ -164,6 +164,10 @@ a.selected {
   font-weight: bold;
 }
 
+#enableaudio {
+  cursor: pointer;
+}
+
 div#audioenabled {
   display: none;
 }
